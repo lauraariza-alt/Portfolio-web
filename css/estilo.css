@@ -569,7 +569,7 @@ footer article nav a:hover{transition: all 0.3s ease-in;opacity:0.7; }
 
     header article {width: 80%;height: 90px;}
     header article figure a {width: 466px;}
-
+    main{margin: 142px auto 0 auto ;}
     main section#profile article {    
         width: 80%;
         height: auto;
@@ -679,7 +679,7 @@ main section#acnp-2 article nav a span.texto-acnp-2 {text-align: center;color:#f
   main section#profile article figure img {
     width: 230px;
     height: 230px;
-    margin: 30px 21px 0;}
+    margin: 30px 29px 0;}
 
     main section#profile article div#about-info  {
         ;margin: 5px  0 30px}
