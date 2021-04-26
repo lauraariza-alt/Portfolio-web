@@ -29,9 +29,9 @@ aside#menu-responsive { width:290px;
     margin:0;
     float: none;
     position:fixed;
-    top: :0;
+    top: 0;
     right:-290px;
-    z-index:99998;
+    z-index:99999;
     background:  #F2EBE0 }
 
 aside#menu-responsive a#abrir {width: 35px;
