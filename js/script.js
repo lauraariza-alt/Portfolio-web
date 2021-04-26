@@ -22,7 +22,7 @@ $("#abrir").click(function(){
 
 });
 
-$("#cerrar").click(function( ){
+$("#cerrar,#profile").click(function( ){
     $("#menu-responsive").animate({
       right:-290
 });
