@@ -478,6 +478,274 @@ main section#profile article div#about-info h5 {
 }
 
 
+
+/* Texto páginas independientes */
+
+main section#analog article div#info-analog {
+    width: 421px;
+    height: auto;
+    margin: 5px;
+    float: left;
+    position: relative;
+    display: block;}
+
+main section#analog article div#info-analog h1 {
+    margin: 0;
+    }
+
+main section#analog article div#info-analog p {
+    position: relative;
+    width: 535px;
+    height: 122px;
+    left: 434px;
+    top: 219px; }
+
+
+
+
+/* Sección galeria pinterest analog  */
+
+main section#gal-pin-analog {width: 90%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 40px auto 30px;
+    position: relative;
+}
+main section#gal-pin-analog article{width: 1100px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-analog article nav{width: 75%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-analog article nav div.columna-pin{ width: 250px;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 11px;
+    position: relative;
+    overflow: hidden;}
+main section#gal-pin-analog article nav div.columna-pin a{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto 24px;
+    position:relative;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius:2px ; }
+main section#gal-pin-analog article nav div.columna-pin a img{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto;
+    position:relative;
+    transition: all 0.3s ease-in; }
+main section#gal-pin-analog article nav div.columna-pin a:hover{ }
+main section#gal-pin-analog article nav div.columna-pin a:hover img{ }
+
+
+
+.fancybox-container {z-index: 99999!important;}
+
+/* Creative */
+
+
+
+main section#gal-pin-creative {width: 90%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 40px auto 30px;
+    position: relative;
+}
+main section#gal-pin-creative article{width: 1100px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-creative article nav{width: 75%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-creative article nav div.columna-pin{ width: 250px;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 11px;
+    position: relative;
+    overflow: hidden;}
+main section#gal-pin-creative article nav div.columna-pin a{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto 24px;
+    position:relative;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius:2px ; }
+main section#gal-pin-creative article nav div.columna-pin a img{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto;
+    position:relative;
+    transition: all 0.3s ease-in; }
+main section#gal-pin-creative article nav div.columna-pin a:hover{ }
+main section#gal-pin-creative article nav div.columna-pin a:hover img{ }
+
+/* Nature */
+
+main section#gal-pin-nature {width: 90%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 40px auto 30px;
+    position: relative;
+}
+main section#gal-pin-nature article{width: 1100px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-nature article nav{width: 75%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-nature article nav div.columna-pin{ width: 250px;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 11px;
+    position: relative;
+    overflow: hidden;}
+main section#gal-pin-nature article nav div.columna-pin a{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto 24px;
+    position:relative;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius:2px ; }
+main section#gal-pin-nature article nav div.columna-pin a img{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto;
+    position:relative;
+    transition: all 0.3s ease-in; }
+main section#gal-pin-nature article nav div.columna-pin a:hover{ }
+main section#gal-pin-nature article nav div.columna-pin a:hover img{ }
+
+
+
+/* People & Situations */
+
+main section#gal-pin-people {width: 90%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 40px auto 30px;
+    position: relative;
+}
+main section#gal-pin-people article{width: 1100px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-people article nav{width: 75%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-people article nav div.columna-pin{ width: 250px;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 11px;
+    position: relative;
+    overflow: hidden;}
+main section#gal-pin-people article nav div.columna-pin a{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto 24px;
+    position:relative;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius:2px ; }
+main section#gal-pin-people article nav div.columna-pin a img{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto;
+    position:relative;
+    transition: all 0.3s ease-in; }
+main section#gal-pin-people article nav div.columna-pin a:hover{ }
+main section#gal-pin-people article nav div.columna-pin a:hover img{ }
+
+/* Street Portrait */
+
+main section#gal-pin-street {width: 90%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 40px auto 30px;
+    position: relative;
+}
+main section#gal-pin-street article{width: 1100px;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-street article nav{width: 75%;
+    height: auto;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+main section#gal-pin-street article nav div.columna-pin{ width: 250px;
+    height: auto;
+    float: none;
+    display: inline-block;
+    margin: 0 11px;
+    position: relative;
+    overflow: hidden;}
+main section#gal-pin-street article nav div.columna-pin a{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto 24px;
+    position:relative;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    border-radius:2px ; }
+main section#gal-pin-street article nav div.columna-pin a img{width:100%;
+    height: auto;
+    float: none;
+    display:block ;
+    margin: 0 auto;
+    position:relative;
+    transition: all 0.3s ease-in; }
+main section#gal-pin-street article nav div.columna-pin a:hover{ }
+main section#gal-pin-street article nav div.columna-pin a:hover img{ }
+
 /* Footer */
 
 footer {width: 100%;
