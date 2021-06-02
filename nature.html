@@ -1,4 +1,4 @@
-diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
     <!-- Título de la página -->
@@ -11,7 +11,7 @@ diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
       <meta charset="utf-8">
 
       <!-- Llamado a icono de favoritos: 520px x 520px en PNG -->
-      <link rel="icon" href="img/imagen-marca.png">
+      <link rel="icon" href="img/png/fav-icon-png.png">
     
 
       <!-- Llamado a libreria PrefixFree desde un CDN (cdnjs.com)  -->
@@ -52,7 +52,14 @@ diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
           <a href="nature.html" class="activo">Nature</a>
           <a href="street-portrait.html">Street Portrait</a>
           <a href="people-y-situations.html">People & situations</a>
-          
+          <a href="#profile">Profile</a>
+          <a href="https://www.instagram.com/userchromaticarrete/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+  
+         <a href="mailto:lauariza6@gmail.com" target="_blank">
+            <i class="far fa-envelope"></i>
+        </a>
   
         </nav>
   
@@ -61,14 +68,86 @@ diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
 
       <!-- Componentes Header -->
 
-     <header>
-
+      <header>
+        <article>
+           <figure>
+              <a href="index.html">
+                 <img src="img/png/logotipo-png.png" alt="User Chromatic Carrete/ Fotografía">   
+               </a>
+            </figure>
+ 
+ 
+          <nav id="menu">
+             <a href="#profile">Profile</a>
+             <a href="https://www.instagram.com/userchromaticarrete/" target="_blank">
+               <i class="fab fa-instagram"></i>
+             </a>
+             <a href="mailto:lauariza6@gmail.com" target="_blank">
+               <i class="far fa-envelope"></i>
+             </a>  
+           </nav>
+ 
+         </article>
+ 
+    
      </header>
   
       <!-- Componentes Main -->
 
-     <main>
+      <main>
+        <section id="nature">
+           <article>
+       <div id="info-nature">
+       <h1>Nature</h1>
+       <p>As a person who takes pictures of nature, it takes a lot of connection
+         with the environment around you such as plants, landscapes, animals, flowers,
+          etc… It´s a very different process from the traditional photography, and in 
+          some way I perceive, It takes sometimes more hours of work to get the perfect 
+          shot, but besides that is such a cool process.</p>
+         </div>
+         </article>
+        </section>
+  
+  
+<!-- Sección galeria pinterest -->
+  <section id="gal-pin-nature">
+    <article>
+      <nav>
+      <div class="columna-pin">
+       <a href="img/contenido/nature-contenido/nature-contenido-7-copia.jpg"data-fancybox="img-analog">
+          <img src="img/contenido/nature-contenido/nature-contenido-7-copia.jpg">
+       </a>
 
+       <a href="img/contenido/nature-contenido/nature-contenido-8-copia.jpg"data-fancybox="img-analog">
+         <img src="img/contenido/nature-contenido/nature-contenido-8-copia.jpg">
+      </a>
+      </div>
+    
+      <div class="columna-pin">
+       
+       <a href="img/contenido/nature-contenido/nature-contenido-6-copia.jpg"data-fancybox="img-analog">
+         <img src="img/contenido/nature-contenido/nature-contenido-6-copia.jpg">
+       </a>
+       <a href="img/contenido/nature-contenido/nature-contenido-2-copia.jpg"data-fancybox="img-analog">
+         <img src="img/contenido/nature-contenido/nature-contenido-2-copia.jpg">
+       </a>
+     </div>
+
+
+     <div class="columna-pin">
+       <a href="img/contenido/nature-contenido/nature-contenido-5-copia.jpg"data-fancybox="img-analog">
+         <img src="img/contenido/nature-contenido/nature-contenido-5-copia.jpg">
+       </a>
+       <a href="img/contenido/nature-contenido/nature-contenido-3-copia.jpg"data-fancybox="img-analog">
+         <img src="img/contenido/nature-contenido/nature-contenido-3-copia.jpg">
+       </a>
+     </div>
+
+        </nav>
+      </article>
+    </section>
+
+  
      </main>
 
       <!-- Componentes Footer -->
@@ -78,7 +157,7 @@ diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
 
         <article>
           <a href="index.html">
-            <img src="#logotipo-svg.svg" alt="User Chromatic Carrete/ Fotografía">   
+            <img src="img/png/imagen-logotipo-png.png">   
           </a>
   
           <nav>
@@ -100,7 +179,6 @@ diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
 
 
 
-
         <!-- Zona de script -->
          <!-- Llamado a JQuery desde CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -108,6 +186,11 @@ diseno-ux.htmldiseno-ui.htmldesarrollo-web.html<!DOCTYPE html>
 
           <!-- Llamado a libreria JQuery Easing desde CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+ 
+        <!-- Llamado a fancyapps -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        
 
 
         <!-- Llamado al JavaScript propio -->
